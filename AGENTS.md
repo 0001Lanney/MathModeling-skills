@@ -42,7 +42,7 @@
   - at most one `conditional_fallback`.
 - Allow only a main candidate plus baseline when no genuine fallback exists.
 - A trivial reference that cannot complete the real task is `diagnostic_reference`, not a baseline.
-- Fully implement the human-approved main method and usable baseline only. Activate a fallback only when its recorded trigger fires.
+- Fully implement only work in the current complete code plan explicitly confirmed by the human: Required Main Model (the human-approved main method), Required Baseline (the usable baseline), Required Validation Experiments, and explicitly authorized Non-required Exploratory Methods. G2.5 method choice alone is not confirmation of that complete plan; drafting the first candidate plan does not require prior plan confirmation. A fallback may replace a confirmed required method only when its recorded trigger is evidenced and an explicit human decision authorizes that specific activation or replacement, identifying the affected method and applicable plan scope; execution also requires the updated confirmed plan and traceable supersession, with original failure evidence retained.
 - Keep changes minimal, traceable, and reviewable.
 
 # Human Decision Convention
@@ -193,7 +193,7 @@ The three critical writer rules remain:
 
 # Final Submission Package
 
-After G6, `submission-packager` can assemble one paper Markdown and a `支撑材料/` directory. The packager selects scripts and inputs from the frozen round's `run_summary.json`, results from that round and the freeze, and images referenced by the delivered paper. It preserves code, data formats, module imports, and workspace-relative paths. It updates image paths only in the packaged paper.
+In the current restricted integration, `submission-packager` may inspect summaries, evidence, and read-only plans, but `assemble()` rejects all assembly, publication, and replacement with `C2_UNQUALIFIED` before staging, copying, or reproduction commands. G6, digest confirmation, `--force`, and `packaging_waiver` do not remove this restriction. The following package-format and copying prerequisites apply only to a future separately approved publication-capable version: after G6, `submission-packager` may assemble one paper Markdown and a `支撑材料/` directory. The packager selects scripts and inputs from the frozen round's `run_summary.json`, results from that round and the freeze, and images referenced by the delivered paper. It preserves code, data formats, module imports, and workspace-relative paths. It updates image paths only in the packaged paper.
 
 Each final audit must record an explicit `Verdict: PASSED`. The human reviews the dry-run inclusion list and confirms its plan digest before copying. Early packaging requires a human `packaging_waiver` decision with a rationale. The packaging manifest stays at `planning/submission_packaging_manifest.json`, outside the package. Runtime checks are reported as `PASS`, `FAIL`, or `UNVERIFIED`; a syntax check alone never establishes runnable output.
 

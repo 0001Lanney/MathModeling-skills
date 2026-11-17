@@ -14,6 +14,16 @@ Create the writer's single source package and immutable numerical snapshot. Do n
 - Human method, result, stability, and claim-scope decisions exist in `qx_decisions.jsonl`.
 - Canonical sources are current.
 
+# Evidence and Sequencing
+
+- Reconcile original task/source, supported parse and parent manifest mappings, actual current code plan and genuine content-linked confirmation. Check Required Main Model, Required Baseline, Required Validation Experiments, and authorized Non-required Exploratory Methods against real code, execution records, metrics/units, outputs, and acceptance findings. No probe PASS, code existence, fitting result, or method-level success substitutes for required validation.
+- Missing source coverage is COVERAGE_UNVERIFIABLE; missing required results/validation or unverifiable plan approval blocks dependent claims/freeze, not independent evidence preparation. Report exact task/item, source, absent/conflicting evidence, owner, and re-entry requirement through Orchestrator. Do not alter task scope or requiredness to finish a package.
+- Preserve the original order: collect and draft the solution package, obtain a real package_signoff decision, then generate frozen_numbers.json. Do not require already passed G4 or a pre-existing freeze to perform the steps that create them; G4 final completion still needs all original artifacts. User keep/downgrade/drop changes claim scope only within genuine authority, not the truth of underlying results.
+- Verify actual human sign-off against this package's content/version and evidence, including effective supersession. Fallback replacement additionally needs real trigger plus specific human authorization and an updated confirmed plan; do not switch methods, invent authorization, or use a new digest as retrospective approval.
+- Keep successful, failed, partial, rerun, Warning and NOT RUN evidence traceable. A Warning alone is not failure; optional exploration failure alone need not veto satisfied required work, but material effects on selection/comparison/claims require disclosure and may block unsupported claims.
+- Preserve Exempt requirements as Exempt with actual scoped human decision and limitation disclosure, never Completed or automatic G6. Missing data or runtime is not exemption. Do not freeze unexecuted/inconclusive/failed validation as a successful scientific claim, fabricate numerical values, or hide contradictory results.
+- Use existing solution-package/freeze paths, JSON entry meanings and fields without extending Schema, statuses, ledger or Manifest. Cite genuine canonical sources and stable locators. Downstream Writer, Completeness, Consistency and QA retain their roles; report gaps for Orchestrator rather than repairing others' evidence or approving G6.
+
 # Workflow
 
 1. Collect final method structure, result claims, limitations, figures, tables, and decision provenance.
